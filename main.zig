@@ -7,7 +7,6 @@ pub const c = @cImport({
     @cDefine("NK_INCLUDE_VERTEX_BUFFER_OUTPUT", "");
     @cDefine("NK_INCLUDE_FONT_BAKING", "");
     @cDefine("NK_INCLUDE_DEFAULT_FONT", "");
-    @cDefine("NK_IMPLEMENTATION", "");
     @cDefine("NK_KEYSTATE_BASED_INPUT", "");
 
     @cInclude("nuklear.h");
